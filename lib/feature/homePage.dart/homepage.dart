@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
     double heightSize = MediaQuery.of(context).size.height;
     double maxHeight = isFull ? 1 : 222;
     return Scaffold(
-        backgroundColor: ColorManager().navy,
+        backgroundColor: ColorManager.navy,
         body: Center(
           child: Padding(
             padding: const EdgeInsets.only(top: 8.0),
@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                 myContainer(
                     width: widthSize / 1.1,
                     height: 44,
-                    color: ColorManager().second,
+                    color: ColorManager.second,
                     borderRaduis: BorderRadius.circular(15),
                     myWidget: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
                             text: StringManager().management,
                             fontSize: FontSize().s20,
                             fontWeight: FontWeight.w600,
-                            textcolor: ColorManager().white,
+                            textcolor: ColorManager.white,
                           ),
                         ),
                         RowOfPointer(),
@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
                                         style: TextStyle(
                                           fontSize: FontSize().s15,
                                           fontWeight: FontWeight.w400,
-                                          color: ColorManager().navy,
+                                          color: ColorManager.navy,
                                         )),
                                     TextSpan(
                                       recognizer: TapGestureRecognizer()
@@ -86,7 +86,7 @@ class HomePage extends StatelessWidget {
                                         overflow: TextOverflow.fade,
                                         fontSize: FontSize().s20,
                                         fontWeight: FontWeight.w400,
-                                        color: ColorManager().second,
+                                        color: ColorManager.second,
                                       ),
                                     ),
                                   ],

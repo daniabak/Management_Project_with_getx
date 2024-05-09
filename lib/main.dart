@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:management_project/feature/auth/login/view/login_view.dart';
+import 'package:management_project/feature/auth/register/view/register_view.dart';
 import 'package:management_project/feature/homePage.dart/homepage.dart';
 
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home:RegisterView(),
     );
   }
 }

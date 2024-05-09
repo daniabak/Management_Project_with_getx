@@ -15,7 +15,7 @@ class RowOfPointer extends StatelessWidget {
           width: 12,
           height: 12,
           decoration: BoxDecoration(
-              color: ColorManager().navy,
+              color: ColorManager.navy,
               borderRadius: BorderRadius.circular(33)),
         ),
         Container(
@@ -23,7 +23,7 @@ class RowOfPointer extends StatelessWidget {
           width: 12,
           height: 12,
           decoration: BoxDecoration(
-              color: ColorManager().navy,
+              color: ColorManager.navy,
               borderRadius: BorderRadius.circular(33)),
         ),
       ],

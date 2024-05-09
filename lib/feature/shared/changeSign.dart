@@ -28,7 +28,7 @@ class ChangeSign extends StatelessWidget {
             onPressed: onPress,
             child: Text(
               textbutton,
-              style: TextStyle(color: ColorManager().second, fontSize: 18),
+              style: TextStyle(color: ColorManager.second, fontSize: 18),
             ))
       ],
     );
